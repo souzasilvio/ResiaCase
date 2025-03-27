@@ -1,31 +1,32 @@
 {
-  "id": "0ba72294-bbfc-428d-b1d0-5d15105c2b31",
-  "name": "Resia BC Customization",
-  "publisher": "SAD",
+  "id": "abb9e84a-db62-4c93-8fdf-116ac8430c80",
+  "name": "SAD Customization",
+  "publisher": "Sad Info",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "SAD Customizations",
+  "description": "SAD Customizations",
+  "privacyStatement": "http://www.sadinfo.com.br",
+  "EULA": "http://www.sadinfo.com.br",
+  "help": "http://www.sadinfo.com.br",
+  "url": "http://www.sadinfo.com.br",
+  "logo": "./Logo/Logo.jpg",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "25.0.0.0",
   "idRanges": [
     {
-      "from": 50000,
-      "to": 99999
+      "from": 50100,
+      "to": 50149
     }
-  ],
-  "features": [
-    "NoImplicitWith"
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith"
+  ]
 }
